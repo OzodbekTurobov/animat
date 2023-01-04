@@ -1,0 +1,45 @@
+.calendar-container {
+    padding: 10px;
+    width: 215px;
+    max-height: 215px;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    background: whitesmoke;
+  }
+  
+  div {
+    padding: 0;
+    margin-bottom: -4px;
+  }
+  
+  
+  .calendar-header {
+    border-bottom: 1px solid rgba(73, 114, 133, .6);
+  }
+  
+  .calendar-month-year {
+    color: #ab0634;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    margin-left: 100px;
+  }
+  
+  .calendar-dates>table {
+      display: inline-block;
+    }
+  
+  td {
+    padding: 5px;
+  }
+  
+  li {
+    padding: 5px;
+    display: table-cell;
+    justify-content: space-between;
+    color: #ab0634;
+    font-weight: 600;
+  }
